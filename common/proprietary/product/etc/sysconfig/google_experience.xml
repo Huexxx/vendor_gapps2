@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<config>
+    <!-- This defines the Photos preload feature for specifically the 2016 Pixel devices. -->
+    <feature name="com.google.android.apps.photos.NEXUS_PRELOAD" />
+    <feature name="com.google.android.apps.photos.nexus_preload" />
+</config>
