@@ -23,6 +23,10 @@ PRODUCT_COPY_FILES += \
     vendor/gapps2/common/proprietary/product/app/GoogleContacts/GoogleContacts.apk.prof:$(TARGET_COPY_OUT_PRODUCT)/app/GoogleContacts/GoogleContacts.apk.prof \
     vendor/gapps2/common/proprietary/product/priv-app/GoogleDialer/GoogleDialer.apk.prof:$(TARGET_COPY_OUT_PRODUCT)/priv-app/GoogleDialer/GoogleDialer.apk.prof
 
+# Huexxx
+PRODUCT_COPY_FILES += \
+    vendor/gapps2/common/proprietary/product/etc/sysconfig/google_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google_experience.xml
+
 PRODUCT_PACKAGES += \
     CalculatorGooglePrebuilt \
     CalendarGooglePrebuilt \
