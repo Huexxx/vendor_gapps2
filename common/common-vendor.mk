@@ -20,8 +20,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Basics
 PRODUCT_COPY_FILES += \
     vendor/gapps2/common/proprietary/product/app/CalculatorGooglePrebuilt/CalculatorGooglePrebuilt.apk.prof:$(TARGET_COPY_OUT_PRODUCT)/app/CalculatorGooglePrebuilt/CalculatorGooglePrebuilt.apk.prof \
-    vendor/gapps2/common/proprietary/product/app/GoogleContacts/GoogleContacts.apk.prof:$(TARGET_COPY_OUT_PRODUCT)/app/GoogleContacts/GoogleContacts.apk.prof \
-    vendor/gapps2/common/proprietary/product/priv-app/GoogleDialer/GoogleDialer.apk.prof:$(TARGET_COPY_OUT_PRODUCT)/priv-app/GoogleDialer/GoogleDialer.apk.prof
+    vendor/gapps2/common/proprietary/product/app/GoogleContacts/GoogleContacts.apk.prof:$(TARGET_COPY_OUT_PRODUCT)/app/GoogleContacts/GoogleContacts.apk.prof
 
 # Huexxx
 PRODUCT_COPY_FILES += \
@@ -31,5 +30,4 @@ PRODUCT_PACKAGES += \
     CalculatorGooglePrebuilt \
     CalendarGooglePrebuilt \
     GoogleContacts \
-    GoogleDialer \
     PrebuiltBugle
